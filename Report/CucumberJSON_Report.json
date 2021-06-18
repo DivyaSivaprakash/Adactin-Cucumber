@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Adac",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;adac;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4009959300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Application",
+            "match": {
+              "location": "Step_Definition.user_Launch_The_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369119800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enter The \"sivaprakashdivya\" In Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sivaprakashdivya",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_In_Username_Field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187860400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter The \"shivanya\" In password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shivanya",
+                  "offset": 16
+                }
+              ],
+              "location": "Step_Definition.user_Enter_The_In_password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 864748200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Click On The Login Button And It Navigates To The Search Hotel Page",
+            "match": {
+              "location": "Step_Definition.user_Click_On_The_Login_Button_And_It_Navigates_To_The_Search_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "",
+        "description": "",
+        "id": "hotel-booking-in-adactin-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177634900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user Click On The My Itinerary Button And It Navigates To The Book Itinerary Page",
+            "match": {
+              "location": "Step_Definition.user_Click_On_The_My_Itinerary_Button_And_It_Navigates_To_The_Book_Itinerary_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@SanTest"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking In Adactin Application",
+    "description": "",
+    "id": "hotel-booking-in-adactin-application",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
